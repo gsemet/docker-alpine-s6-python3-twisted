@@ -24,7 +24,7 @@ RUN \
 
  pip install --no-cache-dir -U \
     # cheetah \ => not compatible with python 3
-    'twisted==17.1.0' && \
+    'twisted==17.9.0' && \
 
 # clean up
  apk del --purge \
